@@ -17,11 +17,8 @@ app.registerExtension({
 
     // Initialize URLs for all GIFs
     const gifFilenames = [
-      "images/cat_1.gif",
-      "images/cat_2.gif",
-      "images/cat_3.gif",
-      "images/cat_4.gif",
-      "images/cat_5.gif",
+      "images/bo1.gif",
+      "images/bo2.gif",
     ];
     const gifUrls = gifFilenames.map((filename) =>
       new URL(filename, import.meta.url).toString()
